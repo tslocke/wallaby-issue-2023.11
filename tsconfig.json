@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noUncheckedIndexedAccess": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client", "node", "vitest/globals"],
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "rootDirs": ["src", "tests", "dev"],
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "tests/**/*.ts", "tests/**/*.tsx", "dev/**/*.ts", "dev/**/*.tsx"],
+}
